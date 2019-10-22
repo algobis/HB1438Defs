@@ -1,0 +1,108 @@
+body{
+    background-color: green;
+    color: skyblue;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+pre{
+    font-size:.73em;
+}
+
+h3{
+    padding-top: 20px;
+    color: lightgreen;
+}
+
+#wordsAndDefsDiv{
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 20px;
+}
+
+#listOfDefsMenu{
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 20px;
+}
+
+#wordAndDefs{
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 20px;
+}
+
+#listOfDefsMenu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    max-width: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 90vh;
+    line-height: 1.4;
+    word-break: break-all;
+}
+
+a{
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0,0,0,.5);
+    padding: 4px 0;
+    border-radius: 20px;
+}
+
+a:hover{
+    font-size: 12px;
+    color: skyblue;
+    background-color: rgba(0,0,0,1);
+    padding: 4px;
+    border-radius: 20px;
+    word-break: break-word;
+}
+
+a:after{
+    content: "\A";
+    white-space: pre;
+}
+
+#Stage_flower2_flower:hover {
+    cursor: pointer;
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #listOfDefsMenu{
+        max-width: 0px;
+    }
+
+
+    #listOfDefsMenu:hover{
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        margin: 10px 10px;
+    }
+
+    pre{
+        font-size:.5em;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+
+    #listOfDefsMenu{
+        max-width: 0px;
+    }
+
+
+    #listOfDefsMenu:hover{
+        max-width: 200px;
+    }
+
+}

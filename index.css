@@ -113,5 +113,13 @@ a:after{
     #listOfDefsMenu:hover{
         max-width: 200px;
     }
+    
+    #wordsAndDefsDiv {
+        background-color: rgba(0,0,0,.5);
+        padding: 10px 20px;
+        position: absolute;
+        left: 20px;
+        max-width: 660px;
+    }    
 
 }
